@@ -24,7 +24,6 @@
     //         <&kp LEFT_ARROW>,
     //         <&kp UP_ARROW>,
     //         <&kp DOWN_ARROW>;
-
     //     tick = <10>;
     //     wait-ms = <5>;
     //     tap-ms = <5>;
@@ -126,7 +125,7 @@
             bindings = <
 &kp Q      &kp W         &kp E         &kp R           &kp T                                       &kp Y        &kp U  &lt 5 I    &kp O    &lt 5 P
 &kp A      &kp S         &kp D         &kp F           &kp G        &kp ESCAPE      &kp DELETE     &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&kp Z      &kp X         &kp C         &kp V           &kp B        &lt 3 TAB       &kp ENTER      &kp N        &kp M  &kp COMMA  &kp DOT  &lt 6 SLASH
+&kp Z      &kp X         &kp C         &kp V           &kp B        &lt 3 TAB       &kp KP_ENTER   &kp N        &kp M  &kp COMMA  &kp DOT  &lt 6 SLASH
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 2 SPACE  &ek             &kp BACKSPACE  &lt 1 SPACE                             &caps_word
             >;
 
@@ -144,10 +143,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                           &trans      &kp F7  &kp F8  &kp F9  &kp F10
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &trans  &trans      &kp F4  &kp F5  &kp F6  &kp F11
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans  &kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F12
-&trans                      &trans           &trans           &trans           &trans        &trans                       &trans  &trans                              &kp F13
+&kp MINUS          &kp NUMBER_7  &kp N8        &kp N9        &kp PLUS                                           &trans      &kp F7  &kp F8  &kp F9  &kp F10
+&kp SLASH          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &trans  &trans      &kp F4  &kp F5  &kp F6  &kp F11
+&mt LEFT_SHIFT N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans  &kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F12
+&trans             &kp N0        &trans        &trans        &trans        &trans                       &trans  &trans                              &kp F13
             >;
         };
 
