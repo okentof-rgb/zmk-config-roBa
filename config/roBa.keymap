@@ -13,31 +13,16 @@
     quick-tap-ms = <0>;
 };
 
+&trackball {
+    automouse-layer = <4>;
+    scroll-layers = <5>;
+};
+
 &sl { release-after-ms = <250>; };
 
 / {
     combos {
         compatible = "zmk,combos";
-
-        BT0 {
-            bindings = <&bt BT_SEL 0>;
-            key-positions = <28>;
-        };
-
-        BT1 {
-            bindings = <&bt BT_SEL 1>;
-            key-positions = <28 23>;
-        };
-
-        BT2 {
-            bindings = <&bt BT_SEL 2>;
-            key-positions = <28 24>;
-        };
-
-        BT3 {
-            bindings = <&none>;
-            key-positions = <28 25>;
-        };
     };
 
     macros {
