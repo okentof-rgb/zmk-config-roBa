@@ -13,23 +13,6 @@
     quick-tap-ms = <0>;
 };
 
-&trackball {
-    automouse-layer = <4>;
-    scroll-layers = <5>;
-
-    // arrows {
-    //     layers = <3>;
-    //     bindings =
-    //         <&kp RIGHT_ARROW>,
-    //         <&kp LEFT_ARROW>,
-    //         <&kp UP_ARROW>,
-    //         <&kp DOWN_ARROW>;
-    //     tick = <10>;
-    //     wait-ms = <5>;
-    //     tap-ms = <5>;
-    // };
-};
-
 &sl { release-after-ms = <250>; };
 
 / {
@@ -78,13 +61,6 @@
                 <&sl 4>;
 
             label = "MKP_EXIT_AML";
-        };
-
-        parenthesis: parenthesis {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LANG_HANJA &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT_ARROW>;
-            label = "parenthesis";
         };
     };
 
