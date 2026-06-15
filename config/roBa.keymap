@@ -93,10 +93,10 @@
 
         SYMBOLS {
             bindings = <
-&kp ESCAPE     &kp LS(N6)  &kp LS(SQT)  &kp LS(N8)  &kp LS(N9)                      &kp LS(N8)    &kp LS(N9)    &trans         &trans      &trans
-&kp LS(EQUAL)  &kp LS(N4)  &kp LS(N5)   &kp EQUAL   &trans      &trans      &trans  &kp LS(RBKT)  &kp LS(BSLH)  &kp SEMICOLON  &kp LS(N7)  &kp INTERNATIONAL_3
-&kp LS(LBKT)   &kp LS(N1)  &kp LBKT     &kp LS(N3)  &trans      &trans      &trans  &kp RBKT      &kp BSLH      &kp SQT        &kp LS(N2)  &kp LS(INTERNATIONAL_3)
-&trans         &trans      &trans       &trans      &trans      &trans      &trans  &trans                                                 &trans
+&kp ESCAPE     &kp LS(N6)  &kp LS(SQT)  &kp LS(N8)     &kp LS(N9)                      &kp LS(N8)    &kp LS(N9)    &trans         &trans      &trans
+&kp LS(EQUAL)  &kp LS(N4)  &kp LS(N5)   &kp LS(EQUAL)  &trans      &trans      &trans  &kp LS(RBKT)  &kp LS(BSLH)  &kp SEMICOLON  &kp LS(N7)  &kp INTERNATIONAL_3
+&kp LS(LBKT)   &kp LS(N1)  &kp LBKT     &kp LS(N3)     &trans      &trans      &trans  &kp RBKT      &kp BSLH      &kp SQT        &kp LS(N2)  &kp LS(INTERNATIONAL_3)
+&trans         &trans      &trans       &trans         &trans      &trans      &trans  &trans                                                 &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -104,10 +104,10 @@
 
         NUM {
             bindings = <
-&kp TAB           &kp NUMBER_7  &kp N8        &kp N9        &kp KP_PLUS                                &trans  &kp F9  &kp F10  &kp F11  &kp F12
-&kp CAPS          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS  &trans      &kp KP_SLASH     &trans  &kp F5  &kp F6   &kp F7   &kp F8
-&kp LEFT_SHIFT    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_EQUAL  &trans      &kp KP_ASTERISK  &trans  &kp F1  &kp F2   &kp F3   &kp F4
-&kp LEFT_CONTROL  &kp N0        &trans        &trans        &trans        &trans      &trans           &trans                            &trans
+&kp TAB           &kp NUMBER_7  &kp N8        &kp N9        &kp KP_PLUS                                 &trans  &kp F9  &kp F10  &kp F11  &kp F12
+&kp CAPS          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS   &trans      &kp KP_SLASH     &trans  &kp F5  &kp F6   &kp F7   &kp F8
+&kp LEFT_SHIFT    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(MINUS)  &trans      &kp KP_ASTERISK  &trans  &kp F1  &kp F2   &kp F3   &kp F4
+&kp LEFT_CONTROL  &kp N0        &kp DOT       &kp COMMA     &trans         &trans      &trans           &trans                            &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
