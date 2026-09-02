@@ -93,10 +93,10 @@
 
         SYMBOLS {
             bindings = <
-&kp ESCAPE     &kp LS(N6)  &kp LS(SQT)  &kp LS(N8)     &kp LS(N9)                      &kp LS(N8)    &kp LS(N9)    &trans         &trans      &trans
-&kp LS(EQUAL)  &kp LS(N4)  &kp LS(N5)   &kp LS(EQUAL)  &trans      &trans      &trans  &kp LS(RBKT)  &kp LS(BSLH)  &kp SEMICOLON  &kp LS(N7)  &kp INTERNATIONAL_3
-&kp LS(LBKT)   &kp LS(N1)  &kp LBKT     &kp LS(N3)     &trans      &trans      &trans  &kp RBKT      &kp BSLH      &kp SQT        &kp LS(N2)  &kp LS(INTERNATIONAL_3)
-&trans         &trans      &trans       &trans         &trans      &trans      &trans  &trans                                                 &trans
+&kp ESCAPE     &kp LS(N6)  &kp LS(SQT)  &kp LS(N8)     &kp LS(N9)                             &kp LS(N8)    &kp LS(N9)    &trans         &trans      &trans
+&kp LS(EQUAL)  &kp LS(N4)  &kp LS(N5)   &kp LS(EQUAL)  &trans      &trans             &trans  &kp LS(RBKT)  &kp LS(BSLH)  &kp SEMICOLON  &kp LS(N7)  &kp INTERNATIONAL_3
+&kp LS(LBKT)   &kp LS(N1)  &kp LBKT     &kp LS(N3)     &trans      &kp LA(GRAVE)      &trans  &kp RBKT      &kp BSLH      &kp SQT        &kp LS(N2)  &kp LS(INTERNATIONAL_3)
+&trans         &trans      &trans       &trans         &trans      &trans             &trans  &trans                                                 &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
